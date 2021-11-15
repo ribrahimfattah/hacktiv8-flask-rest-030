@@ -51,6 +51,7 @@ ns.model = (function() {
                 contentType: 'application/json',
                 dataType: 'json',
                 data: JSON.stringify({
+                    'person_id': person_id,
                     'fname': fname,
                     'lname': lname
                 })
